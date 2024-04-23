@@ -1,9 +1,8 @@
  #  Возможности отображения JavaScript
-  <h1>Возможности отображения JavaScript </h1>
 
 *   JavaScript может «отображать» данные разными способами:
 *   Запись в элемент HTML с использованием innerHTML.
-*   Запись в вывод HTML с использованием document.write().
+*   Запись в вывод HTML с использованием [document.write()](#document).
 *   Запись в окно оповещения с использованием window.alert().
 *   Запись в консоль браузера с помощью console.log().
  ```html 
@@ -19,10 +18,13 @@
         </script>
     </body>
 </html>
+
  ```
  [try it ](https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_dom)
 
  Изменение свойства innerHTML элемента HTML — распространенный способ отображения данных в HTML.
 
- Использование a
+### Использование [document.write()]{#document} 
+### My Great Heading {#custom-id}
+Для целей тестирования удобно использовать document.write():
 

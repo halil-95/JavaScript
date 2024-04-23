@@ -168,3 +168,14 @@ let total = price1 + price2;
 5. Используйте только varв том случае, если вы ДОЛЖНЫ поддерживать старые браузеры.
 >Примечание
 Переменные — это контейнеры для хранения значений.
+
+
+Difference Between var, let and const
+
+
+| |Scope | Redeclare| Reassign| Hoisted| Binds this|
+|---|----|----|----|----|----|
+| __var__ |	No|	Yes|	Yes|	Yes|	Yes|
+|__let__	|Yes|	No|	Yes|	No|	No|
+|__const__	|Yes|	No|	No|	No|	No|
+
